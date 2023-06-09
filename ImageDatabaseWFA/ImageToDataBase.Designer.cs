@@ -1,6 +1,6 @@
 ﻿namespace ImageDatabaseWFA
 {
-    partial class Form1
+    partial class ImageToDataBase
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ImageToDataBase));
             this.pictureSet = new System.Windows.Forms.PictureBox();
             this.pictureView = new System.Windows.Forms.PictureBox();
             this.buttonSelect = new System.Windows.Forms.Button();
@@ -49,6 +49,7 @@
             this.pictureSet.Location = new System.Drawing.Point(133, 61);
             this.pictureSet.Name = "pictureSet";
             this.pictureSet.Size = new System.Drawing.Size(162, 174);
+            this.pictureSet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureSet.TabIndex = 0;
             this.pictureSet.TabStop = false;
             // 
@@ -58,6 +59,7 @@
             this.pictureView.Location = new System.Drawing.Point(416, 61);
             this.pictureView.Name = "pictureView";
             this.pictureView.Size = new System.Drawing.Size(162, 174);
+            this.pictureView.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureView.TabIndex = 1;
             this.pictureView.TabStop = false;
             // 
@@ -73,6 +75,7 @@
             this.buttonSelect.TabIndex = 2;
             this.buttonSelect.Text = "Select";
             this.buttonSelect.UseVisualStyleBackColor = false;
+            this.buttonSelect.Click += new System.EventHandler(this.buttonSelect_Click);
             // 
             // buttonSetPhoto
             // 
@@ -86,6 +89,7 @@
             this.buttonSetPhoto.TabIndex = 3;
             this.buttonSetPhoto.Text = "Set image";
             this.buttonSetPhoto.UseVisualStyleBackColor = false;
+            this.buttonSetPhoto.Click += new System.EventHandler(this.buttonSetPhoto_Click);
             // 
             // buttonVIew
             // 
@@ -99,6 +103,7 @@
             this.buttonVIew.TabIndex = 4;
             this.buttonVIew.Text = "View";
             this.buttonVIew.UseVisualStyleBackColor = false;
+            this.buttonVIew.Click += new System.EventHandler(this.buttonVIew_Click);
             // 
             // label1
             // 
@@ -154,7 +159,7 @@
             this.textBoxId.Size = new System.Drawing.Size(46, 26);
             this.textBoxId.TabIndex = 9;
             // 
-            // Form1
+            // ImageToDataBase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -174,9 +179,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
+            this.Name = "ImageToDataBase";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "ImageToDataBase";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureView)).EndInit();
