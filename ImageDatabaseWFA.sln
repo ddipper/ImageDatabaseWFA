@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageDatabaseWFA", "ImageDatabaseWFA\ImageDatabaseWFA.csproj", "{DFB25907-D4D1-4AA3-BAA6-47F32A67FBC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFB25907-D4D1-4AA3-BAA6-47F32A67FBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB25907-D4D1-4AA3-BAA6-47F32A67FBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB25907-D4D1-4AA3-BAA6-47F32A67FBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB25907-D4D1-4AA3-BAA6-47F32A67FBC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DCA214E-583D-4076-9930-4ABC6109582B}
+	EndGlobalSection
+EndGlobal
